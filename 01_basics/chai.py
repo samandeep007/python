@@ -181,5 +181,3 @@ chai("Sandhu saab");
 # >>> m is n
 # False
 # >>>  
-
-# #
