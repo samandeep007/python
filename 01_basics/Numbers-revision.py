@@ -217,3 +217,47 @@
 # >>> # do left shift
 # >>> x << 2
 # 4
+# >>> x,y,z = 2,3,4
+# >>> x
+# 2
+# >>> x | 2
+# 2
+# >>> # Learn bitwise operations in python
+# >>> 
+# >>> import random
+# >>> random.random()
+# 0.3110398113635052
+# >>> int(random.random())
+# 0
+# >>> random.randint(1,100)
+# 29
+# >>> random.randint(1,100)
+# 30
+# >>> random.randint(1,100)
+# 12
+# >>> random.randint(1,100)
+# 68
+# >>> random.randint(1,100)
+# 24
+# >>> random.randint(1,100)
+# 68
+# >>> # Python already has many of these things
+# >>> 
+# >>> l1 = ['lemon', 'masala', 'ginger', 'mint']
+# >>> random.choice(l1)  
+# 'lemon'
+# >>> random.choice(l1)
+# 'mint'
+# >>> random.choice(l1)
+# 'mint'
+# >>> 0.1 + 0.1 + 0.4
+# 0.6000000000000001
+# >>> 0.1 + 0.1 + 0.1
+# 0.30000000000000004
+# >>> 0.1 + 0.1 + 0.1 - 0.3
+# 5.551115123125783e-17
+# >>> # Why it is happening bro??
+# >> from decimal import Decimal
+# >>> Decimal('0.1') + Decimal('0.1') + Decimal('0.1')
+# Decimal('0.3')
+# >>> # Now we got the expected result
