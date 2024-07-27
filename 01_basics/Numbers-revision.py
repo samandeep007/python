@@ -275,3 +275,13 @@
 # >>> myFra = Fraction(2,7)
 # >>> myFra
 # Fraction(2, 7)
+
+# >>> setone = {1,2,3,4}
+# >>> setone & {1,3} # Intersection
+# {1, 3}
+# >>> setone | {5,6,7} # Union
+# {1, 2, 3, 4, 5, 6, 7}
+# >>> setone - {1,3} # Difference
+# {2, 4}
+# >>> setone ^ {1,3} # Symmetric Difference --> Elements in either set one or set two but not both
+# {2, 4, 5, 6, 7}
