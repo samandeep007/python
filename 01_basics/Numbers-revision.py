@@ -284,4 +284,4 @@
 # >>> setone - {1,3} # Difference
 # {2, 4}
 # >>> setone ^ {1,3} # Symmetric Difference --> Elements in either set one or set two but not both
-# {2, 4, 5, 6, 7}
+# {2, 4}
