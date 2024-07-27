@@ -261,3 +261,6 @@
 # >>> Decimal('0.1') + Decimal('0.1') + Decimal('0.1')
 # Decimal('0.3')
 # >>> # Now we got the expected result
+# >>> Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3')
+# Decimal('0.0')
+# >>> # Hurrayyy! We did it
