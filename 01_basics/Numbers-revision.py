@@ -285,3 +285,20 @@
 # {2, 4}
 # >>> setone ^ {1,3} # Symmetric Difference --> Elements in either set one or set two but not both
 # {2, 4}
+# >>> setone - {1,2,3,4} # Empty set
+# set()
+# >>> type({}) # Dictionary --> Always denote empty set with set()
+# <class 'dict'>
+
+
+# >>> type(True)
+# <class 'bool'>
+# >>> True == 1
+# True
+# >>> False == 0
+# True
+# >>> True is 1 # This is not correct. 'is' operator checks if two objects are the same instance
+# <stdin>:1: SyntaxWarning: "is" with a literal. Did you mean "=="?
+# False
+# >>> True + 5 # True is treated as 1 and False is treated as 0
+# 6
