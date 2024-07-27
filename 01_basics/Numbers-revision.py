@@ -46,3 +46,18 @@
 # True
 # >>> 4.0 != 5.0
 # True
+# >>> x < y < z
+# True
+# >>> x < y and y < z
+# True
+# >>> x > z or y < z
+# True
+# >>> 1 == 2 < 3
+# False
+# >>> 1 == 2 and 2 < 3
+# False
+# >>> True
+# True
+# >>> bool(1)
+# True
+# >>>
