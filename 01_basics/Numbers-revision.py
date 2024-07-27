@@ -223,7 +223,9 @@
 # >>> x | 2
 # 2
 # >>> # Learn bitwise operations in python
-# >>> 
+
+
+
 # >>> import random
 # >>> random.random()
 # 0.3110398113635052
@@ -250,6 +252,8 @@
 # 'mint'
 # >>> random.choice(l1)
 # 'mint'
+
+
 # >>> 0.1 + 0.1 + 0.4
 # 0.6000000000000001
 # >>> 0.1 + 0.1 + 0.1
@@ -264,3 +268,10 @@
 # >>> Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3')
 # Decimal('0.0')
 # >>> # Hurrayyy! We did it
+# Decimal context manager -- Read about it here: https://docs.python.org/3/library/decimal.html
+
+
+# >>> from fractions import Fraction
+# >>> myFra = Fraction(2,7)
+# >>> myFra
+# Fraction(2, 7)
