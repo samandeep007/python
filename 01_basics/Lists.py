@@ -98,3 +98,24 @@
 # ['Black', 'green', 'Oolong', 'White', 'Lemon']
 
 
+# List comprehension:
+# >>> squared_nums = [x**2 for x in range(10)] --> This will create a new list with squares of numbers from 0 to 9. Range starts from 0 and goes up to but not including 10.
+# >>> print(squared_nums)
+# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# >>> y = range(10)       
+# >>> for i in y:
+# ...     print(i)
+# ...
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+
+
