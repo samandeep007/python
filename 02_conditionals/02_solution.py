@@ -10,3 +10,5 @@ def getTicketPrice(age):
 
 age = int(input("Enter your age: "))
 print("The ticket costs $" + str(getTicketPrice(age)))
+
+
