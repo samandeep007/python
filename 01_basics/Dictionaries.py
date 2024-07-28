@@ -48,3 +48,26 @@
 # Masala chai has Spicy taste
 # Ginger chai has Zesty taste
 # Green chai has Fresh taste
+
+
+# >>> if "Masala" in chai_types:
+# ...     print("We have Masala Chai")
+# ...
+# We have Masala Chai
+
+
+# >>> print(len(chai_types))
+# 3
+
+# >>> chai_types["Earl Grey"] = "Citrus"
+# >>> print(chai_types)
+# {'Masala': 'Spicy', 'Ginger': 'Zesty', 'Green': 'Fresh', 'Earl Grey': 'Citrus'}
+
+# >>> chai_types.pop("Ginger") #Here you have to provide key  
+# 'Zesty'
+
+# >>> chai_types.popitem()
+# ('Earl Grey', 'Citrus')
+# >>> print(chai_types)
+# {'Masala': 'Spicy', 'Green': 'Fresh'}
+
