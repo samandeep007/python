@@ -8,3 +8,4 @@ def isLeapYear(year):
 
 year = int(input("Enter the year: "))
 print("The year is " + ("a " if isLeapYear(year) == True else "not a ") + "leap year")
+
