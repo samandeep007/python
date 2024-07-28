@@ -76,3 +76,13 @@
 # {'Masala': 'Spicy'}
 
 # >>> chai_types_copy = chai_types.copy()
+
+# >>> tea_shop = {
+# ... "chai": {"Masala": "Spicy", "Ginger": "Zesty"},
+# ... "Tea": {"Green": "Mild", "Black": "Strong"}
+# ... }
+
+# >>> tea_shop["chai"]
+# {'Masala': 'Spicy', 'Ginger': 'Zesty'}
+# >>> tea_shop["chai"]["Ginger"]
+# 'Zesty'
