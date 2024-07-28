@@ -86,3 +86,17 @@
 # {'Masala': 'Spicy', 'Ginger': 'Zesty'}
 # >>> tea_shop["chai"]["Ginger"]
 # 'Zesty'
+
+# Dictionary comprehension:
+# >>> squared_nums = {x:x**2 for x in range(1,6)}
+# >>> print(squared_nums)
+# {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+# >>> squared_nums.clear()
+# >>> print(squared_nums)
+# {}
+
+# >>> new_dict = dict.fromkeys(keys, default_value)
+# >>> print(new_dict)
+# {'Masala': 'Delicious', 'Ginger': 'Delicious', 'Lemon': 'Delicious'}
+
