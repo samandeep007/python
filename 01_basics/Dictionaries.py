@@ -16,3 +16,13 @@
 # >>> chai_types["Green"] = "Fresh" --> This will add a new key-value pair if the key does not exist, otherwise it will
 # >>> print(chai_types)                 
 # {'Masala': 'Spicy', 'Ginger': 'Zesty', 'Green': 'Fresh'}
+
+
+
+# >>> for key, value in chai_types.items(): 
+# ...     print("{} chai has {} taste".format(key, value))
+# ...
+# Masala chai has Spicy taste
+# Ginger chai has Zesty taste
+# Green chai has Fresh taste
+
