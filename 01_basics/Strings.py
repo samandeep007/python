@@ -97,3 +97,8 @@
 # >>> chai = r"Masala\nChai" --> Raw string
 # >>> print(chai)
 # Masala\nChai --> This will print the string as it is without interpreting escape sequences
+
+
+# >>> chai = r"c:\user\pwd"     
+# >>> print(chai)
+# c:\user\pwd
