@@ -2,14 +2,10 @@
 import datetime
 def getTicketPrice(age):
     today = datetime.datetime.today()
-    ticketPrice = 0
-    if age>=18:
-       ticketPrice = 12
-    else:
-        ticketPrice = 8
+    price = 12 if age >= 18 else 8
     if(today.weekday() == 3):
-        ticketPrice = ticketPrice - 2
-    return ticketPrice
+       price -= 2
+    return price
 
 
 age = int(input("Enter your age: "))
