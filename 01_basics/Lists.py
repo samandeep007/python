@@ -38,3 +38,63 @@
 # >>> tea_varieties[1:1] = ["test", "test"]
 # >>> print(tea_varieties)
 # ['Black', 'test', 'test', 'Green', 'Masala', 'White']
+
+# >>> tea_varieties[1:3] = [] --> will remove the elements from 1 to 2 index           
+# >>> print(tea_varieties)    
+# ['Black', 'Green', 'Masala', 'White']
+
+# Why do we need it?
+# >>> tea_varieties[1] = ['Saman', 'Sandhu']
+# >>> print(tea_varieties)
+# ['Black', ['Saman', 'Sandhu'], 'Masala', 'White']
+
+# >>> for variety in tea_varieties:  
+# ...     print(variety)
+# ... 
+# Black
+# Green
+# Oolong
+# White
+
+# >>> for variety in tea_varieties: 
+# ...     print(variety, end="-") --> This will print all elements separated by "-". By default, print() function adds a newline character at the end.
+# ...
+# Black-Green-Oolong-White->>>
+
+# >>> if "Oolong" in tea_varieties: 
+# ...     print("I have Oolong tea")
+# ...
+# I have Oolong tea
+
+# >>> tea_varieties.append("Ginger")
+# >>> print(tea_varieties)
+# ['Black', 'Green', 'Oolong', 'White', 'Ginger']
+# >>> if "Ginger" in tea_varieties:   
+# ...     print("We have Ginger tea")
+# ...
+# We have Ginger tea
+
+# >>> tea_varieties.pop() --> This will remove the last element from the list
+# 'Ginger'
+
+# >>> tea_varieties.remove("Green") --> This will remove the first occurrence of the specified element from the list
+# >>> print(tea_varieties)
+# ['Black', 'Oolong', 'White']
+
+# >>> tea_varieties.insert(1, "green") --> This will insert the specified element at the specified index
+# >>> print(tea_varieties)
+# ['Black', 'green', 'Oolong', 'White']
+
+# >>> tea_varieties_copy = tea_varieties.copy()
+# >>> print(tea_varieties_copy)
+# ['Black', 'green', 'Oolong', 'White']
+# >>> print(tea_varieties is tea_varieties_copy)
+# False
+
+# >>> tea_varieties_copy.append("Lemon")
+# >>> print(tea_varieties) 
+# ['Black', 'green', 'Oolong', 'White']
+# >>> print(tea_varieties_copy)
+# ['Black', 'green', 'Oolong', 'White', 'Lemon']
+
+
