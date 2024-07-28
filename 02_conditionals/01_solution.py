@@ -2,9 +2,9 @@
 def classifyAge(age):
     if age < 13:
         return "Child"
-    elif age >= 13 and age <=19:
+    elif age < 20:
         return "Teenager"
-    elif age >= 20 and age <= 59:
+    elif age < 60:
         return "Adult"
     else:
         return "Senior"
