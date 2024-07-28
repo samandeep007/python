@@ -118,4 +118,6 @@
 # 8
 # 9
 
-
+# >>> cube_num = [y**3 for y in range(1,6)]
+# >>> print(cube_num)
+# [1, 8, 27, 64, 125]
