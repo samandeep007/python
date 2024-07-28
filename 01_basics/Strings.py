@@ -43,5 +43,28 @@
 # >>> chai = "Lemon, Ginger, Masala, Mint"
 # >>> print(chai.split(', '))
 # ['Lemon', 'Ginger', 'Masala', 'Mint']
+# >>> print(chai.find("Chai"))
+# 7
+# >>> chai = "Masala chai Chai Chai"
+# >>> print(chai.count("Chai"))
+# 2
 
+
+# >>> chai_type = "Masala"
+# >>> quantity = 2
+
+# >>> #order formatting
+# >>> order = "I ordered {} cups of {} chai"
+# >>> # {} are placeholders
+# >>> print(order.format(quantity, chai_type))
+# I ordered 2 cups of Masala chai
+
+# >>> chai_variety = ["Lemon", "Masala", "Ginger"]
+# >>> print(", ".join(chai_variety))
+# Lemon, Masala, Ginger
+
+
+# >>> chai = "Masala Chai"
+# >>> print(len(chai))
+# 11
 
