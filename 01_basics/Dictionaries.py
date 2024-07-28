@@ -26,3 +26,11 @@
 # Ginger chai has Zesty taste
 # Green chai has Fresh taste
 
+# >>> for chai in chai_types: --> This will print all keys
+# ...     print(chai)
+# ...
+# Masala
+# Ginger
+# Green
+
+
