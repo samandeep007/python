@@ -4,7 +4,7 @@
 
 def checkPrime(num):
     if num <= 1:
-        return False  # Numbers less than or equal to 1 are not prime
+        return False 
     if num == 2:
             return True
     for i in range(2, num):
