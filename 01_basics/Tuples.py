@@ -22,3 +22,17 @@
 # >>> all_tea = more_tea + tea_types
 # >>> print(all_tea)
 # ('Herbal', 'Oolong', 'Earl Grey', 'Black', 'Green', 'Lemon')
+
+# >>> if "Green" in all_tea:      
+# ...     print("I have green tea")
+# ... 
+# I have green tea
+
+
+# >>> more_tea = ("Herbal", "Earl Grey", "Herbal")
+# >>> print(more_tea.count("Herbal"))
+# 2
+
+# >>> (black, green, lemon) = tea_types
+# >>> print(black)
+# Black
