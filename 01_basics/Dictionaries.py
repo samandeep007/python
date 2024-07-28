@@ -13,3 +13,6 @@
 #   File "<stdin>", line 1, in <module>
 # KeyError: 'Lemon'
 
+# >>> chai_types["Green"] = "Fresh" --> This will add a new key-value pair if the key does not exist, otherwise it will
+# >>> print(chai_types)                 
+# {'Masala': 'Spicy', 'Ginger': 'Zesty', 'Green': 'Fresh'}
