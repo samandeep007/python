@@ -27,3 +27,14 @@
 # >>> print(tea_varieties)
 # ['Black', 'Lemon', 'Oolong', 'White']
 
+# >>> tea_varieties[1:3]
+# ['Lemon', 'Oolong']
+# >>> tea_varieties[1:3] = ['Green', 'Masala']
+# >>> print(tea_varieties)
+# ['Black', 'Green', 'Masala', 'White']
+
+# >>> tea_varieties[1:1] --> will insert at the first index
+# []
+# >>> tea_varieties[1:1] = ["test", "test"]
+# >>> print(tea_varieties)
+# ['Black', 'test', 'test', 'Green', 'Masala', 'White']
