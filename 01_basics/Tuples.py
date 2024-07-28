@@ -18,3 +18,7 @@
 # >>> print(tea_types[:2])
 # ('Black', 'Green')
 
+# >>> more_tea = ("Herbal", "Oolong", "Earl Grey")
+# >>> all_tea = more_tea + tea_types
+# >>> print(all_tea)
+# ('Herbal', 'Oolong', 'Earl Grey', 'Black', 'Green', 'Lemon')
