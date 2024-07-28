@@ -18,7 +18,7 @@
 # {'Masala': 'Spicy', 'Ginger': 'Zesty', 'Green': 'Fresh'}
 
 
-# >>> for key, value in chai_types.items(): 
+# >>> for key, value in chai_types.items(): --> items() will return a list of tuples where each tuple contains a key-value pair.
 # ...     print("{} chai has {} taste".format(key, value))
 # ...
 # Masala chai has Spicy taste
@@ -34,4 +34,17 @@
 # Green
 
 
+# >>> for chai in chai_types: --> This will print all values.
+# ...     print(chai_types[chai])
+# ...
+# Spicy
+# Zesty
+# Fresh
 
+
+# >>> for key, value in chai_types.items():
+# ...     print("{} chai has {} taste".format(key, value))
+# ...
+# Masala chai has Spicy taste
+# Ginger chai has Zesty taste
+# Green chai has Fresh taste
