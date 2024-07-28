@@ -68,3 +68,32 @@
 # >>> print(len(chai))
 # 11
 
+# >>> for letter in chai:
+# ...  print(letter)
+# ...
+# M
+# a
+# s
+# a
+# l
+# a
+
+# C
+# h
+# a
+# i
+
+# >>> chai = "He said, \"Masala chai is awesome\""
+# >>> # use escape sequence backslash
+# >>> print(chai)
+# He said, "Masala chai is awesome"
+
+# >>> chai = "Masala\nChai"
+# >>> chai
+# 'Masala\nChai'
+# >>> print(chai) --> Prints each line separately
+# Masala
+# Chai
+# >>> chai = r"Masala\nChai" --> Raw string
+# >>> print(chai)
+# Masala\nChai --> This will print the string as it is without interpreting escape sequences
