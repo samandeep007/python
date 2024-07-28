@@ -18,7 +18,6 @@
 # {'Masala': 'Spicy', 'Ginger': 'Zesty', 'Green': 'Fresh'}
 
 
-
 # >>> for key, value in chai_types.items(): 
 # ...     print("{} chai has {} taste".format(key, value))
 # ...
@@ -26,11 +25,13 @@
 # Ginger chai has Zesty taste
 # Green chai has Fresh taste
 
-# >>> for chai in chai_types: --> This will print all keys
+
+# >>> for chai in chai_types: --> This will print all keys. In lists, if we iterate over a list, we get values.
 # ...     print(chai)
 # ...
 # Masala
 # Ginger
 # Green
+
 
 
