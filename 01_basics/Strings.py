@@ -8,3 +8,18 @@
 # >>> firstChar = chai[0]
 # >>> print(firstChar)  
 # M
+# >>> chai
+# 'Masala chai'
+
+
+# >>> slice_chai = chai[0:6] # last index is not included
+# >>> print(slice_chai)
+# Masala
+# >>> num_list = "0123456789"
+# >>> num_list[:] 
+# '0123456789'
+# >>> num_list[3:]
+# '3456789'
+# >>> num_list[:7]
+# '0123456'
+# >>>
