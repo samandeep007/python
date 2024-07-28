@@ -25,4 +25,23 @@
 # '0123456'
 # >>> num_list[0:7:2] # Step size of 2
 # '0246'
+# >>> num_list[::3] # Step size of 3
+# '0369'
+
+
+# >>> print(chai.lower())
+# masala chai
+# >>> print(chai.upper())
+# MASALA CHAI
+# >>> print(chai.title())
+# Masala Chai
+# >>> print(chai.strip()) 
+# Masala Chai
+# >>> chai = "Lemon Chai"
+# >>> print(chai.replace("Lemon", "Ginger"))
+# Ginger Chai
+# >>> chai = "Lemon, Ginger, Masala, Mint"
+# >>> print(chai.split(', '))
+# ['Lemon', 'Ginger', 'Masala', 'Mint']
+
 
