@@ -37,3 +37,5 @@
 # >>> print(black)
 # Black
 
+# >>> type(tea_types)
+# <class 'tuple'>
