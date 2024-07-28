@@ -99,6 +99,9 @@
 # Masala\nChai --> This will print the string as it is without interpreting escape sequences
 
 
-# >>> chai = r"c:\user\pwd"     
+# >>> chai = r"c:\user\pwd" or "c://user//pwd"     
 # >>> print(chai)
 # c:\user\pwd
+
+# >>> print("Masala" in chai) 
+# True
