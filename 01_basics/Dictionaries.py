@@ -71,3 +71,8 @@
 # >>> print(chai_types)
 # {'Masala': 'Spicy', 'Green': 'Fresh'}
 
+# >>> del chai_types["Green"] --> del() function deletes the specified key-value pair from the dictionary. Deletes the reference from memory.
+# >>> chai_types
+# {'Masala': 'Spicy'}
+
+# >>> chai_types_copy = chai_types.copy()
