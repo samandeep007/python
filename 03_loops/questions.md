@@ -15,7 +15,7 @@ numbers = [1, -2, 3, -4, 5, 6, -7, -8, 9, 10]
 
 <details>
 <summary>
-2. Sum of Even Numbers
+2. Sum of Even Number
 </summary>
 Problem: Calculate the sum of even numbers up to a given number n.
 
